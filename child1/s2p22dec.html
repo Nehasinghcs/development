@@ -1,0 +1,180 @@
+<div class="headers2p">
+  <div class="inline-block">
+    <div class="back inline-block  margin-left-5px"></div>
+    <div class="font-size-14 inline-block s2pheading">S2P</div>
+  </div>
+  <div class="pull-right inline-block">
+    <div class="filter inline-block margin-left-5px"></div>
+    <div (click)="changeViewSize()" class="maximize inline-block"></div>
+  </div>
+</div>
+<div>
+  <div class="col-xs-4 col-md-4 col-xm-4 col-lg-4" style="height:250px">
+    <div [chart]="abubblechart" style="height: 260px;"></div>
+  </div>
+  <div class="col-xs-8 col-md-8 col-xm-8 col-lg-8 txt" style="height:250px">
+    <div class="col-xs-12 s2ptxt margin-updown-4px">S2P is simply the printing and typesetting industry.Loreal ispurm has been...
+    </div>
+    <div class="col-xs-12 s2ptxt margin-updown-4px">Location:<span class="location">Europe</span>
+    </div>
+    <div class="col-xs-12 description">
+      <div class="col-xs-4">
+        <span class="number number-blue padding-zero">10</span><span class="s2ptxt margin-left-4px">Total Automation</span>
+      </div>
+      <div class="col-xs-4">
+        <span class="number number-red">04</span><span class="s2ptxt margin-left-4px">Critical Automation</span>
+      </div>
+      <div class="col-xs-4">
+        <span class="number number-red">02</span><span class="s2ptxt margin-left-4px">SLA Breached</span>
+      </div>
+    </div>
+    <div class="col-xs-12 heading margin-up-10px">Notifications</div>
+    <div class="row">
+      <div class="col-xs-4">
+        <div class="red-dot-8px  margin-top-3px inline-block margin-left-15px"></div>
+        <div class="inline-block"><span class="count margin-top-3px">03</span><span class="s2ptxt margin-left-4px">Errors</span></div>
+      </div>
+      <div class="col-xs-4">
+        <div class="yellow-dot-8px margin-top-3px inline-block margin-left-15px"></div>
+        <div class="inline-block"><span class="count margin-top-3px">06</span><span class="s2ptxt margin-left-4px">Warnings</span></div>
+      </div>
+      <div class="col-xs-4">
+        <div class="gray-dot-8px margin-top-3px inline-block margin-left-15px"></div>
+        <div class="inline-block"><span class="count margin-top-3px">05</span><span class="s2ptxt margin-left-4px">Info</span></div>
+      </div>
+    </div>
+    <div class="col-xs-12 heading automation margin-up-10px">Automation Exception Analysis</div>
+    <div class="row">
+      <div class="col-xs-4">
+        <div class="red-dot-8px  margin-top-3px inline-block margin-left-15px"></div>
+        <div class="inline-block"><span class="count margin-top-3px">03</span><span class="s2ptxt margin-left-4px">Bussiness</span></div>
+      </div>
+      <div class="col-xs-4">
+        <div class="yellow-dot-8px margin-top-3px inline-block margin-left-15px"></div>
+        <div class=" inline-block"><span class="count margin-top-3px">06</span><span class="s2ptxt margin-left-4px">Code</span></div>
+      </div>
+      <div class="col-xs-4">
+        <div class="blue-dot-8px margin-top-3px inline-block margin-left-15px"></div>
+        <div class="inline-block"><span class="count margin-top-3px">05</span><span class="s2ptxt margin-left-4px">Infrastruture</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <div class="col-xs-12" style="height:180px;">
+    <div [chart]="colChart"></div>
+  </div>
+</div>
+.margin-updown-4px{
+    margin:4px 0;
+}
+.margin-left-15px{
+    margin-left: 15px;
+}
+.margin-up-10px{
+    margin:10px 0 0 0 ;
+}
+.margin-left-4px{
+    margin-left:4px;
+}
+.txt{
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+.headers2p{
+    height:58px;
+}
+.s2ptxt{
+    font-size: 12px; 
+    line-height: 1.17;
+    color: #626579;
+}
+.location{
+    font-weight: 600;
+    color: #384962;
+}
+.number{
+    font-size: 20px;
+    font-weight: 600;
+}
+.number-blue{
+    color: #00a0e7;
+}
+.number-red{
+    color:red;
+}
+.count{
+    line-height: normal;
+}
+.heading{
+    font-size: 12px;
+    font-weight: 600;
+    color: #394961;
+}
+.count{
+    font-size: 14px;
+    font-weight: 600;
+    color: #394961;
+}
+.s2pheading{
+    margin-top:15px;
+    font-weight:bold;
+    font-size:16px;
+    color:#394961;
+    text-align:left;
+    position: absolute;
+    top: 11px;
+    left: 35px;
+}
+.description{
+    margin-top:11px;
+    margin-bottom:20px;
+}
+.automation{
+    margin-top:25px;
+}
+.maximize {
+    margin-top:15px;
+}
+.filter {
+    margin-top:15px;
+}
+.back {
+    margin-top:15px;
+}
+.red-dot-8px {
+    float: left;
+    height: 8px;
+    background-color: #f04d3b;
+    width: 8px;
+    border-radius: 5px;
+    margin-right:6px;
+}
+.yellow-dot-8px {
+    float: left;
+    height: 8px;
+    background-color: #fcb137;
+    width: 8px;
+    border-radius: 5px;
+    margin-right:6px;
+}
+.blue-dot-8px{
+    float: left;
+    height: 8px;
+    background-color: #00a0e7;
+    width: 8px;
+    border-radius: 5px;
+    margin-right:6px;
+}
+.gray-dot-8px{
+    float: left;
+    height: 8px;
+    background-color: #9ea6a9;
+    width: 8px;
+    border-radius: 5px;
+    margin-right:6px;
+}
