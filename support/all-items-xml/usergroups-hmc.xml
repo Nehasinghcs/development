@@ -1,0 +1,190 @@
+-----------------------------------------Common Assisted Service Agent Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Assited Service Customer Support Agent Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Assited Service Customer Support Manager Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Base audit report group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------B2B Admin Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------B2B Approver Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------B2B Customer Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------B2B Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------B2B Manager Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Backoffice admin group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Backoffice Administrator Role-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Backoffice audit report group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Backoffice Workflow Administrator Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Backoffice Workflow User Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Base CMS Manager Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------CMS Manager Group-----------------------------------------
+
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<configuration xmlns="hybris.de/schemas/hmc/generic"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="hybris.de/schemas/hmc/generic hmc.xsd"> 
+
+	<explorertree>
+		<group name="user" mode="delete"/>
+		<group name="recommendation" mode="delete"/>
+		<group name="marketing" mode="delete"/> 
+		<group name="pricesettings">
+			<group name="taxes" mode="delete"/>
+		</group>
+		<group name="cmsgroup" mode="delete"/>
+	</explorertree>
+
+	<type name="VariantType" mode="append">
+		<organizer>
+			<editor>
+				<tab name="XML" mode="delete" />
+				<tab name="extended" mode="delete" />
+				<tab name="security" mode="delete" />
+			</editor> 
+		</organizer>
+	</type>
+
+</configuration>
+
+-----------------------------------------Cockpit User Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Customer Service Agent Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------CS Agent Group Manager-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Customer Manager Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Customer Service Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Family Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Fraud Agent Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Hybris Travel Agency-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Backoffice Marketing Manager role-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------My Recent Customer Sessions-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Organization Employee Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Organization Employee Role-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Pronto-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Rustic-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Sales Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------Travel agency users-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
+-----------------------------------------yForms Manager Group-----------------------------------------
+
+
+[no hmcXML for this UserGroup]
+
